@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>CSS GRID</title>
+</head>
+<body>
+    <div class="container">
+        <div class="leftPanel">
+            <div class="logo">
+                <i class="fa-solid fa-gauge"></i>
+                <h3>Dashboard</h3>
+            </div>
+            <div class="navMenu">
+                <ul class="navList">
+                    <a href="#!">
+                        <li class="nav-item"><i class="fa-solid fa-house-user"></i> Home </li>
+                    </a>
+                    <a href="#!">
+                        <li class="nav-item"><i class="fa-solid fa-address-card"></i> Profile </li>
+                    </a>
+                    <a href="#!">
+                        <li class="nav-item"><i class="fa-sharp fa-solid fa-comment"></i> Messages </li>
+                    </a>
+                    <a href="#!">
+                        <li class="nav-item"><i class="fa-solid fa-clock-rotate-left"></i> History </li>
+                    </a>
+                    <a href="#!">
+                        <li class="nav-item"><i class="fa-solid fa-bars-progress"></i> Task </li>
+                    </a>
+                    <a href="#!">
+                        <li class="nav-item"><i class="fa-solid fa-group-arrows-rotate"></i> Communities </li>
+                    </a>
+                    <hr class="divider">
+                    <div class="navMenu groupTwo">
+                        <a href="#!"><li class="nav-item"><i class="fa-solid fa-gear"></i> Settings </li></a>
+                        <a href="#!"><li class="nav-item"><i class="fa-solid fa-circle-info"></i> Support </li></a>
+                        <a href="#!"><li class="nav-item"><i class="fa-solid fa-lock"></i> Privacy </li></a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="topNav">
+            <div class="searchBar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Type and enter to search..." class="search-field">
+            </div>
+            <div class="userInfo">
+                <div class="userNotification">
+                    <i class="fa-solid fa-bell"></i>
+                    <div class="badge"></div>
+                </div>
+                <div class="userProfile">
+                    <div class="avatar">
+                        <img src="./assets/images/man.png" alt="project-iconavatar">
+                    </div>
+                    <div class="userName">
+                        Hello, Admin
+                    </div>
+                </div>                   
+            </div>
+            <div class="welcomeContainer">
+                <div class="bigProfile">
+                    <img src="./assets/images/man.png" alt="project-iconAvatar">
+                    <div class="bigUserInfo">
+                        <span class="welcomeMessage">Hi, There!</span>
+                        <div class="userNameContainer">
+                            <h3 class="userName">John Deo (@JohnDeo)</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="topNavBtns">
+                <a href="#!" class="btn">New</a>
+                <a href="#!" class="btn">Upload</a>
+                <a href="#!" class="btn">Share</a>
+            </div>
+        </div>
+        <div class="contentArea">
+            <div class="projects">
+                <div class="project">
+                    <h3 class='project-title'>Super Cool Project</h3>
+                    <p class="project-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Quae neque eaque sapiente doloribus earum iusto consectetur cumque
+                        libero optio sed.
+                    </p>
+                    <div class="project-icons">
+                        <img src="./assets/icons/star-plus-outline.svg" alt="project-icon">
+                        <img src="./assets/icons/eye-plus-outline.svg" alt="project-icon">
+                        <img src="./assets/icons/share-variant-outline.svg" alt="project-icon">
+                    </div>
+                </div>
+                <div class="project">
+                    <h3 class='project-title'>Super Cool Project</h3>
+                    <p class="project-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Quae neque eaque sapiente doloribus earum iusto consectetur cumque
+                        libero optio sed.
+                    </p>
+                    <div class="project-icons">
+                        <img src="./assets/icons/star-plus-outline.svg" alt="project-icon">
+                        <img src="./assets/icons/eye-plus-outline.svg" alt="project-icon">
+                        <img src="./assets/icons/share-variant-outline.svg" alt="project-icon">
+                    </div>
+                </div>
+                <div class="project">
+                    <h3 class='project-title'>Super Cool Project</h3>
+                    <p class="project-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Quae neque eaque sapiente doloribus earum iusto consectetur cumque
+                        libero optio sed.
+                    </p>
+                    <div class="project-icons">
+                        <img src="./assets/icons/star-plus-outline.svg" alt="project-icon">
+                        <img src="./assets/icons/eye-plus-outline.svg" alt="project-icon">
+                        <img src="./assets/icons/share-variant-outline.svg" alt="project-icon">
+                    </div>
+                </div>
+                <div class="project">
+                    <h3 class='project-title'>Super Cool Project</h3>
+                    <p class="project-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Quae neque eaque sapiente doloribus earum iusto consectetur cumque
+                        libero optio sed.
+                    </p>
+                    <div class="project-icons">
+                        <img src="./assets/icons/star-plus-outline.svg" alt="project-icon">
+                        <img src="./assets/icons/eye-plus-outline.svg" alt="project-icon">
+                        <img src="./assets/icons/share-variant-outline.svg" alt="project-icon">
+                    </div>
+                </div>
+                <div class="project">
+                    <h3 class='project-title'>Super Cool Project</h3>
+                    <p class="project-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Quae neque eaque sapiente doloribus earum iusto consectetur cumque
+                        libero optio sed.
+                    </p>
+                    <div class="project-icons">
+                        <img src="./assets/icons/star-plus-outline.svg" alt="project-icon">
+                        <img src="./assets/icons/eye-plus-outline.svg" alt="project-icon">
+                        <img src="./assets/icons/share-variant-outline.svg" alt="project-icon">
+                    </div>
+                </div>
+                <div class="project">
+                    <h3 class='project-title'>Super Cool Project</h3>
+                    <p class="project-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Quae neque eaque sapiente doloribus earum iusto consectetur cumque
+                        libero optio sed.
+                    </p>
+                    <div class="project-icons">
+                        <img src="./assets/icons/star-plus-outline.svg" alt="project-icon">
+                        <img src="./assets/icons/eye-plus-outline.svg" alt="project-icon">
+                        <img src="./assets/icons/share-variant-outline.svg" alt="project-icon">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="sideBar">
+                <h3 class="widget-heading anouncement-heading">Announcements</h3>
+                <div class="announcements">
+                    <div class="announcement">
+                        <h4 class="announce-title">Site Maintenance</h4>
+                        <p class="announce-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, beatae!</p>
+                    </div>
+                    <div class="announcement">
+                        <h4 class="announce-title">Site Maintenance</h4>
+                        <p class="announce-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, beatae!</p>
+                    </div>
+                    <div class="announcement">
+                        <h4 class="announce-title">Site Maintenance</h4>
+                        <p class="announce-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, beatae!</p>
+                    </div>
+                </div>
+                <h3 class="widget-heading trending-heading">Trending</h3>
+                <div class="announcements">
+                    <div class="announcement">
+                        <h4 class="announce-title">Site Maintenance</h4>
+                        <p class="announce-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, beatae!</p>
+                    </div>
+                    <div class="announcement">
+                        <h4 class="announce-title">Site Maintenance</h4>
+                        <p class="announce-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, beatae!</p>
+                    </div>
+                    <div class="announcement">
+                        <h4 class="announce-title">Site Maintenance</h4>
+                        <p class="announce-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, beatae!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+   
+</body>
+</html>
