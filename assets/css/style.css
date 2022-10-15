@@ -18,17 +18,12 @@
     list-style-type: none;
     text-decoration: none;
 }
-body{
-    display: flex;
-    justify-content: center;
-}
+
 .container{
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: 250px 1fr;
     background-color: var(--page-bg);
-    max-width: 1600px;
-    
 }
 
 .leftPanel{
