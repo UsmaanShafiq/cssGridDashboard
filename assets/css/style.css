@@ -72,7 +72,7 @@
 }
 .topNav{
     display: grid;
-    grid-template-columns: 70%  1fr;
+    grid-template-columns: 2fr  1fr;
     grid-column: 2 / -1;
     background: #fff;
     box-shadow: var(--shadow);
